@@ -70,6 +70,9 @@ body {
 
 /* TODO: hover, focus-visible, active, and aria-current styles. */
 /* TODO: hide only the enhanced, collapsed narrow list. */
+.js .nav-list[data-open="false"] {
+    display: none;
+}
 main,
 footer {
     width: min(100% - 2rem, var(--max));
@@ -82,7 +85,7 @@ main {
 }
 
 /* TODO: add the relative-unit breakpoint justified in navigation-plan.html. */
-@media screen and (min-width: 110em) {
+@media screen and (min-width: 52em) {
 .nav-list {
     flex-direction: row;
     justify-content: center;

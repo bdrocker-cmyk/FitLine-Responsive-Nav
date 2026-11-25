@@ -84,10 +84,10 @@
         </tr>
     </table>
     <h2>2. Breakpoint evidence</h2>
-    <p><strong>Method and widths tested:</strong> [Response]</p>
-    <p><strong>First content failure:</strong> [What happened and at what width?]</p>
-    <p><strong>Chosen breakpoint in relative units:</strong> [Response]</p>
-    <p><strong>Long-label and zoom retest:</strong> [Observed result and repair]</p>
+    <p><strong>Method and widths tested:320px, 391px, 799px, 831px, 832px, 833px</strong> ChromeDevTools was used to adjust viewport manually.</p>
+    <p><strong>First content failure:</strong> Initial issues noticed because I used min-width:700px on .nav-list,that prevented the navigation from collapsing properly on smaller screens.</p>
+    <p><strong>Chosen breakpoint in relative units:</strong> 52em, chosen because the navigation lost visibility at 799px. 110em was initially input as visual preference tests but later changed due to testing results. </p>
+    <p><strong>Long-label and zoom retest:</strong> Changed Membership title to Membership Plans and Pricing Information , several labels wrappped onto two lines at 832px, 200% zoom test was successful, and no layout repair was needed.</p>
     <h2>3. Interaction and failure test record</h2>
     <table>
         <tr>

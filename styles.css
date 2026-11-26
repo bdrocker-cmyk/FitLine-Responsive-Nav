@@ -47,6 +47,9 @@ body {
 
 .menu-button {
     /* TODO: native button appearance, focus, and comfortable target. */
+    background-color: black;
+    color: white;
+    padding: .75rem;
 }
 
 .nav-list {
@@ -69,6 +72,19 @@ body {
 }
 
 /* TODO: hover, focus-visible, active, and aria-current styles. */
+.nav-list a:hover {
+    background-color: black;
+    color: white;
+}
+.nav-list a:focus-visible,
+.menu-button:focus-visible {
+    outline: 3px dotted blue;
+    outline-offset: 2px;
+}
+.nav-list a:active {
+    background-color: var(--accent);
+    color: var(--ink);
+}
 /* TODO: hide only the enhanced, collapsed narrow list. */
 .js .nav-list[data-open="false"] {
     display: none;
@@ -91,6 +107,10 @@ main {
     justify-content: center;
     margin: 0;
 }
+.menu-button {
+    display: none;
 
+.js .nav-list[data-open] {
+    display: flex;    
 }
     

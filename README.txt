@@ -1,17 +1,12 @@
 MODULE 5 RESPONSIVE NAVIGATION DELIVERABLE STARTER
 
-Required files:
-- index.html, visit.html, support.html: three-page demonstration shell
-- styles.css: shared component styles and TODO markers
-- navigation.js: minimal behavior scaffold and TODO markers
-- navigation-plan.html: planning, testing, code-defense, and AI evidence
-- README.txt: replace this text with your site description and testing notes
+FITLINE- RESPONSIVE NAVIGATION
 
-Use:
-1. Extract the folder before editing.
-2. Keep the required filenames and relative paths.
-3. Replace bracketed placeholders and every TODO.
-4. Test all three pages from the extracted folder.
-5. Zip the complete folder. Re-extract that ZIP and test it before submission.
-
-Do not replace this scaffold with a framework, library, or navigation plug-in.
+Site description
+FitLine is an all inclusive website informing future members on the future best gym in the world. Through the website members can view amenities, membership offers, locations, and much more. This website is intended to allow visitors to browse our businesses information regardless of screen size, device, etc.
+Testing Notes
+Tests Performed:
+Screen Widths: 320px, 391px, 831px, 832px.
+Keyboard Navigation through tab,enter, space and escape.
+Navigation without CSS and javascript.
+Peer Testing 

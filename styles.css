@@ -85,6 +85,11 @@ body {
     background-color: var(--accent);
     color: var(--ink);
 }
+.nav-list a[aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
 /* TODO: hide only the enhanced, collapsed narrow list. */
 .js .nav-list[data-open="false"] {
     display: none;
@@ -109,8 +114,9 @@ main {
 }
 .menu-button {
     display: none;
-
+}
 .js .nav-list[data-open] {
     display: flex;    
 }
     
+}
